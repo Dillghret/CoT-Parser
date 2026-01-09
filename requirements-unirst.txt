@@ -1,0 +1,5 @@
+# UniRST optional dependencies (only needed when --ac_method unirst)
+# Per upstream docs:
+#   pip uninstall isanlp -y && pip install git+https://github.com/iinemo/isanlp.git
+#   pip install isanlp_rst
+isanlp_rst>=3.1.0

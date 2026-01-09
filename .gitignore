@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Outputs
+outputs/
+*.log
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
