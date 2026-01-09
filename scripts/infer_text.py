@@ -37,7 +37,7 @@ def main():
     ap.add_argument("--ac_model", default="qwen3-max")
     ap.add_argument("--aric_model", default="qwen3-max")
     ap.add_argument("--base_url", default=DEFAULT_BASE_URL)
-    ap.add_argument("--api_key", default="sk-58ffd45bdcb84fbe800067e62783f417")
+    ap.add_argument("--api_key", default="")
 
     ap.add_argument("--fewshot_json", default="")
     ap.add_argument("--save_debug", action="store_true")
