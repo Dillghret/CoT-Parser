@@ -5,8 +5,8 @@ import json
 import os
 from datetime import datetime
 
-from cot_graph.pipeline import infer_from_text
-from cot_graph.llm_client import DEFAULT_BASE_URL
+from cot_DAG.pipeline import infer_from_text
+from cot_DAG.llm_client import DEFAULT_BASE_URL
 
 
 def build_out_path(*, input_txt: str, out_dir: str, out_name: str, name_template: str,

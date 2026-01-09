@@ -8,7 +8,7 @@ import httpx
 
 try:
     from openai import OpenAI
-except Exception:  # pragma: no cover
+except Exception:
     OpenAI = None  # type: ignore
 
 

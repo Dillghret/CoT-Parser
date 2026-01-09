@@ -1,16 +1,19 @@
-# Python
+# env / secrets
+.env
+*.key
+
+# outputs / logs
+outputs/
+logs/
+cache/
+*.log
+
+# python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 venv/
-.env
-.env.*
 
-# Outputs
-outputs/
-*.log
-*.jsonl
-
-# OS
-.DS_Store
-Thumbs.db
+# editor
+.vscode/
+.idea/
