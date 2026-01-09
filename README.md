@@ -19,8 +19,7 @@ Output is a single JSON file containing the input text, ADUs, and directed label
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
-# Linux/macOS:
-source .venv/bin/activate
+# Linux/macOS: source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
@@ -116,8 +115,3 @@ Top-level fields:
 
 Use `--save_debug` to include intermediate artifacts (sentence-level outputs, raw model JSON).
 
----
-## Notes
-
-- Do not commit API keys. Use environment variables instead.
-- Sentence splitting for `llm` mode is heuristic; UniRST mode is typically more stable for long texts.
